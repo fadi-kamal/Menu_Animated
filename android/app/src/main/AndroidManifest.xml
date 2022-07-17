@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.back_ground_change">
+    package="com.example.menu_animated">
    <application
-        android:label="back_ground_change"
+        android:label="menu_animated"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

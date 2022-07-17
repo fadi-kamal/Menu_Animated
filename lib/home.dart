@@ -1,5 +1,4 @@
-
-import 'package:back_ground_change/home_menu.dart';
+import 'package:menu_animated/home_menu.dart';
 import 'package:flutter/material.dart';
 
 class HomeMenu extends StatefulWidget {
@@ -13,9 +12,10 @@ class _HomeMenuState extends State<HomeMenu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:  AppBar(
+      appBar: AppBar(
         centerTitle: true,
-        title: Text("Menu Animated"),),
+        title: Text("Menu Animated"),
+      ),
       body: SafeArea(
         child: Container(
           child: Stack(
